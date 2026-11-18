@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&display=swap');
+
+
+body{
+    background-color:rgb(186, 247, 247);
+    margin: 10px;
+    text-align: center;
+    font-family: "Agrave Pro", cursive;
+    font-optical-sizing: auto;
+    font-weight:20px;
+    font-style: normal;
+}
+
+
+.header{
+    background-color:#9BA685;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color:#455230;
+    border-radius: 20px;
+}
+
+/* MAIN */
+
+main{
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+
+.img{
+    height: 300px;
+    width: 310px;
+    border-radius: 20px;
+}
+
+
+
+
+footer{
+    background-color: #9BA685;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+
+section{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border: 2px gold solid;
+}
+
+section h2{
+    font-size: 30px;
+    color: #455230;
+
+}
+
+section h3{
+    font-size: 25px;
+    color: #455230;
+}
+
+section p{
+    font-size: 20px;
+}
+
+section a{
+    text-decoration: none;
+    background-color: #455230;
+    color: white;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+section ul{
+    list-style: none;
+    padding: 0px;
+}
+
+section li{
+    background-color: rgb(189, 232, 219);
+    margin: 10px auto;
+    padding: 12px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+@media(max-width: 500px){
+    img{
+        width: 50px;
+    }
+}
